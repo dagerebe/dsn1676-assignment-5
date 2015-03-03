@@ -1,18 +1,26 @@
 var $theList = $('.list');
 var $form = $('form');
 var $input = $('#to-do');
+var $button = $(".add")
 
 $form.on('submit', function (eventObject) {
 	eventObject.preventDefault();
 
-	var $items = $('<ul>');
-	$items.html($input.val());
 
-	var $item = $('<li>');
-	$item.html($input.val());
+	var $addValue = $theList.val();
+	var $li =$("<li>");
+	var $addItem = $("<h3>").html($input.val());
+	var $button = $("<button>");
 
-	$theList.html($item);
-	$.append;
+	$button.html("&#x2717");
+	$button.addClass("done");
 
-	$input.val('');
+	$button.on("click", function () {
+		$li.remove();
+	})
+
+	$li.append($addItem);
+	$theList.append($li);
+	$addItem.append($button);
+
 });
