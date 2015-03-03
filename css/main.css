@@ -29,8 +29,43 @@ img {
 	width: 100%;
 }
 
-.list {
-  background-color: pink;
-  width: 400px;
-  height: 400px;
+.whole-form {
+  text-align: center;
+  background-color: lightgrey;
 }
+
+.title {
+  font-size: 2em;
+  font-family: 'univers', sans-serif;
+  display: block;
+  margin-bottom: .5em;
+}
+
+.add {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  border: none;
+  font-size: 1em;
+  height: 2em;
+}
+
+.input {
+  height: 3em;
+  border: none;
+}
+
+.list {
+  width: 100%;
+  min-height: 100%;
+  margin: 10%;
+}
+
+
+
+
+
+
+
+
+
+
