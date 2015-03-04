@@ -19,9 +19,9 @@ html {
 }
 
 body {
-  margin: 5%;
+  margin: 2em;
   padding: 0;
-  background-color: rgb(250,250,250);
+  background-color: orange;
 }
 
 img {
@@ -30,13 +30,16 @@ img {
 }
 
 .whole-form {
-  text-align: center;
-  background-color: lightgrey;
+  width: 20em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title {
   font-size: 2em;
   font-family: 'univers', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
   display: block;
   margin-bottom: .5em;
 }
@@ -47,18 +50,31 @@ img {
   border: none;
   font-size: 1em;
   height: 2em;
+  margin-top: 3px;
 }
 
 .input {
   height: 3em;
+  width: 16em;
+  padding-left: .5em;
   border: none;
+  font-family: 'univers', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3px;
 }
 
 .list {
-  width: 100%;
-  min-height: 100%;
-  margin: 10%;
+  width: 18.5em;
+  margin-left: 10%;
 }
+
+.done {
+  border: none;
+  background-color: white;
+  margin-left: 1em;
+}
+
+
 
 
 
